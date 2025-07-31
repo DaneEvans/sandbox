@@ -10,7 +10,7 @@ on:
         default: true
       api_levels:
         description: 'JSON array string of API levels to run tests on (e.g., `[35]` or `[26, 35]`)'
-        required: false
+        required: false 
         type: string
         default: '[26, 35]' # Default to running both if not specified by caller
     secrets:
