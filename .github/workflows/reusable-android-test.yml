@@ -7,7 +7,7 @@ on:
         description: 'Whether to upload Android test reports'
         required: false
         type: boolean
-        default: true
+        default: true 
       api_levels:
         description: 'JSON array string of API levels to run tests on (e.g., `[35]` or `[26, 35]`)'
         required: false
